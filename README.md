@@ -17,6 +17,8 @@ iBasso uses `PingFang SC Regular` for Latin-based and Chinese characters, and `N
 
 The two fonts used by iBasso are replaced with one, which is `Roboto Condensed`, with the missing characters merged from `Arial Unicode MS`. Character width tables were calculated from the actual font metrics.
 
+For those who prefer original fonts, I make special fimware builds.
+
 ## 2. CPU is always working at the highest performance
 
 By default, Android uses `interactive` CPU performance governor, meaning, CPU frequency depends on a load and may be changed. Changes in the CPU working frequency during audio playback affect the stability of the power source and temperature, probably, also the stability of the sound stream from CPU to DAC. So, stable CPU speed also means stable power and temperature of other components: DAC, clock generator, op-amps. This firmware forces `performance` governor, i.e. always highest supported frequency.
