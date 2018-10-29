@@ -4,6 +4,17 @@
 
 **NOTE:** to tell which version is running, go to _Settings_->_Advanced_->_System Info_ and check the _Model number_. The modification version number (L0, L1 etc) is right after the actual model number (DX120).
 
+# Recommended firmware update procedure
+Often a firmware update requires subsequent factory reset for problemless use. The following procedure ensures factory reset without additional efforts:
+1. Unzip downloaded archive and put resulting `update.img` file into the root folder of a microSD card.
+2. Turn the device off.
+3. Insert the miscroSD card to any slot, but be sure the other slot is empty!
+4. Press and hold Volume+ button, then turn the power on.
+5. Wait for recovery menu to appear. Release Volume+ button.
+6. Using volume buttons, select *Apply update from SDcard*
+7. Push Power button to select.
+8. Wait for firmware updating, data and cahe partitions formatting (which is the factory reset) and reboot to the new version.
+
 # Detailed description of the changes
 
 ## Introduction for those who seeks the sound quality
